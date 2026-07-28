@@ -17,6 +17,41 @@
 
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/quartos.css">
+
+    <!-- CORRECAO-ALINHAMENTO-CARDS-V4 -->
+    <style id="correcao-alinhamento-cards-v4">
+        /*
+         * Correção incorporada diretamente no HTML.
+         * Não depende do cache nem da versão de css/quartos.css.
+         */
+        .quartos-grid {
+            align-items: stretch !important;
+        }
+
+        .quarto-card {
+            display: flex !important;
+            flex-direction: column !important;
+            height: 100% !important;
+        }
+
+        .quarto-card-conteudo {
+            display: flex !important;
+            flex: 1 1 auto !important;
+            flex-direction: column !important;
+            min-height: 0 !important;
+        }
+
+        .quarto-rodape {
+            margin-top: auto !important;
+        }
+
+        @media (max-width: 620px) {
+            .quarto-card {
+                height: auto !important;
+            }
+        }
+    </style>
+
 </head>
 <body>
     <header class="site-header">
