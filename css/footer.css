@@ -1,6 +1,6 @@
 .site-footer{padding-top:52px;background:var(--cor-primaria-escura);color:#fff}
 .footer-grid{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:54px;padding-bottom:42px}
-.footer-logo-placeholder{display:grid;width:170px;min-height:75px;place-items:center;margin-bottom:18px;border:1px dashed #7691a8;border-radius:10px;color:#cbdbe8;font-size:.7rem;font-weight:700;letter-spacing:.08em}
+.footer-logo-placeholder{display:grid;width:170px;min-height:75px;place-items:center;margin-bottom:18px;font-size:.7rem;font-weight:700;letter-spacing:.08em}
 .footer-col .missao{max-width:390px;margin-bottom:22px;color:#cad8e3;font-size:.92rem}
 .footer-col h2{margin-bottom:18px;color:#fff;font-size:1.05rem}
 .footer-col ul{padding:0;list-style:none;color:#cbd8e2;font-size:.92rem}
