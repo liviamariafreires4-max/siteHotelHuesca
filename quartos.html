@@ -9,7 +9,6 @@
     <link rel="icon" type="image/png" href="img/favicon-hotel-azul.png" media="(prefers-color-scheme: light)">
     <link rel="icon" type="image/png" href="img/favicon-hotel-branco.png" media="(prefers-color-scheme: dark)">
 
-<link rel="icon" type="image/png" href="\img\logo-hotel-sem-fundo.png" media="(prefers-color-scheme: dark)">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,11 +17,12 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/quartos.css">
 
-    <!-- CORRECAO-ALINHAMENTO-CARDS-V4 -->
-    <style id="correcao-alinhamento-cards-v4">
+    <!-- HOTEL-HUESCA-CARDS-ALINHADOS-V5 -->
+    <meta name="hotel-huesca-build" content="cards-alinhados-v5">
+    <style id="hotel-huesca-cards-alinhados-v5">
         /*
-         * Correção incorporada diretamente no HTML.
-         * Não depende do cache nem da versão de css/quartos.css.
+         * Mantém todos os cards da mesma linha com a mesma altura.
+         * O espaço excedente fica acima da linha divisória.
          */
         .quartos-grid {
             align-items: stretch !important;
@@ -31,6 +31,7 @@
         .quarto-card {
             display: flex !important;
             flex-direction: column !important;
+            align-self: stretch !important;
             height: 100% !important;
         }
 
@@ -38,6 +39,7 @@
             display: flex !important;
             flex: 1 1 auto !important;
             flex-direction: column !important;
+            width: 100% !important;
             min-height: 0 !important;
         }
 

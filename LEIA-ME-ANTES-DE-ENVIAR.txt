@@ -1,0 +1,32 @@
+HOTEL PALACE HUESCA — CORREÇÃO FINAL PARA GITHUB PAGES
+
+O que foi corrigido:
+1. Os cards de quartos agora usam flexbox diretamente no quartos.html.
+2. As linhas divisórias, preços e botões ficam no rodapé dos cards.
+3. O espaço vazio necessário aparece acima da linha divisória.
+4. Caminhos /img/... e \img\... foram convertidos para img/....
+5. A correção não depende do cache de css/quartos.css.
+
+COMO ENVIAR AO GITHUB
+
+Não apague as pastas css e js que já existem no repositório.
+
+1. Extraia este ZIP.
+2. Entre na pasta extraída.
+3. Envie o CONTEÚDO da pasta para a raiz do repositório.
+4. Substitua os HTMLs e as imagens quando o GitHub perguntar.
+5. Faça o commit na branch usada pelo GitHub Pages.
+6. Aguarde a publicação.
+7. Recarregue a página com Ctrl + F5.
+
+A página deve continuar neste endereço:
+siteHotelHuesca/quartos.html
+
+VERIFICAÇÃO
+
+Abra quartos.html no GitHub e procure por:
+
+HOTEL-HUESCA-CARDS-ALINHADOS-V5
+
+Se essa frase não aparecer no código do GitHub, o arquivo não foi
+substituído na raiz correta.
